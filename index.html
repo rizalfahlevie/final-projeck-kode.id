@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Starbucks Website Landing PAge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo"><img src="https://logodownload.org/wp-content/uploads/2017/10/starbucks-logo-4.png" width="80" height="80"></a>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Menu</a></li>
+               <li><a href="#">What's New</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="TextBox">
+               <h2>Bukan Sekedar Kopi<br>inilah dia <span>Starbucks</span></h2>
+               <p>Sepahit-pahitnya kopi, lebih pahit jika tidak ada kopi
+               <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="kopi st 1.jpg" class="Starbucks"> 
+            </div>            
+        </div>
+        <ul class="thumb">
+            <li><img src="kopi st 3.jpg" onclick="imgSlinder('kopi st 3.jpg')"width="100" height="100"></li>
+            <li><img src="kopi st 5.jpg" onclick="imgSlinder('kopi st 5.jpg')"width="100" height="100"></li>
+            <li><img src="kopi st 3.jpg" onclick="imgSlinder('kopi st 3.jpg')"width="100" height="100"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="fb24.jpg"width="50" height="50"></a></li>
+            <li><a href="#"><img src="ig.jpg"width="50" height="50"></a></li>
+            <li><a href="#"><img src="tw.jpg"width="50" height="50"></a></li>
+        </ul>
+    </section>
+    
+    <script type="text/javascript">
+        function imgSlinder(anything){
+            document.querySelector('.starbuck').scr=anything;
+        }
+        function changeCircleColor(color)
+    </script>
+</body>
+</html>
